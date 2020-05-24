@@ -1,0 +1,53 @@
+[
+  {
+    "title": "FreeCodeCamp",
+    "url": "https://freecodecamp.org",
+    "img": "/images/freecodecamp.svg",
+    "desc": "Learn to code at home. Build projects. Earn certifications.",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "likes": [
+      "2020-04-23"
+    ],
+    "level": {
+      "from": "easy",
+      "to": "advanced"
+    },
+    "technologies": [
+      "javascript", "htmlcss", "react"
+    ],
+    "type": [
+      "interactive", "guides", "tutorials"
+    ],
+    "payment": {
+      "price": false,
+      "label": "Only donations"
+    }
+  },
+  {
+    "title": "Grafikart",
+    "url": "https://grafikart.fr",
+    "img": false,
+    "desc": "Video courses and written summary about javascript and plenty of others languages",
+    "languages": [
+      "french"
+    ],
+    "likes": [],
+    "level": {
+      "from": "easy",
+      "to": "advanced"
+    },
+    "technologies": [
+      "javascript", "htmlcss"
+    ],
+    "type": [
+      "interactive", "guides", "tutorials"
+    ],
+    "payment": {
+      "price": false,
+      "label": "Only donations"
+    }
+  }
+]

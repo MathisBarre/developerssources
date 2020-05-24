@@ -1,0 +1,63 @@
+.app
+  height: 100vh
+  overflow: hidden
+  width: 100%
+  display: flex
+  color: var(--black)
+  & > *
+    max-height: 100%
+    max-width: 100%
+    box-sizing: border-box
+  
+.version
+  position: absolute
+  right: 42px
+  bottom: 42px
+  font-size: 1.2rem
+  font-weight: 700
+
+.header
+  display: inline-block
+  overflow: auto
+  height: 100vh
+  background-color: var(--black)
+  padding: 42px
+  color: white
+  &Title
+    margin: 0
+    margin-bottom: 21px
+    border: solid 3px white
+    padding: 28px
+    font-size: 46px
+    box-sizing: border-box
+    &Items
+      display: inline-block
+
+.nav
+  &Group
+    &Title
+      font-size: 23px
+      text-decoration: underline
+      margin: 0
+      padding-top: 21px
+      padding-bottom: 21px
+    &Item
+      display: flex
+      align-items: center
+      padding: 7px 0
+      cursor: pointer
+      border-radius: 3px
+      &:hover .navGroupItemLabel
+        // transform: translateX(3.5px)
+        text-decoration: underline
+      &Img
+        max-height: 24px
+        max-width: 24px
+        margin-right: 14px
+      &Label
+        margin: 0px
+        font-size: 18px
+        transition-duration: .05s
+        color: white
+        text-decoration: none
+
