@@ -1,0 +1,97 @@
+.app
+  height: 100vh
+  overflow: hidden
+  width: 100%
+  display: flex
+  color: var(--black)
+  & > *
+    max-height: 100%
+    max-width: 100%
+    box-sizing: border-box
+  
+.header
+  display: inline-block
+  overflow: auto
+  height: 100vh
+  background-color: var(--black)
+  padding: 42px
+  color: white
+  &Title
+    margin: 0
+    margin-bottom: 21px
+    border: solid 3px white
+    padding: 28px
+    font-size: 46px
+    box-sizing: border-box
+    &Items
+      display: inline-block
+
+.nav
+  &Group
+    &Title
+      font-size: 23px
+      text-decoration: underline
+      margin: 0
+      padding-top: 21px
+      padding-bottom: 21px
+    &Item
+      display: flex
+      align-items: center
+      padding: 7px 0
+      cursor: pointer
+      transition-duration: 0.1s
+      &:hover
+        transform: translateX(3.5px)
+      &Img
+        max-height: 24px
+        max-width: 24px
+        margin-right: 14px
+      &Label
+        margin: 0px
+        font-size: 18px
+
+.main
+  padding: 42px
+  &Title
+    font-size: 32px
+    display: flex
+    align-items: center
+    margin: 0
+    margin-bottom: 42px
+  &Img
+    max-width: 42px
+    max-height: 42px
+    margin-right: 28px
+
+.source
+  &Title
+    display: flex
+    align-items: center
+    font-size: 22px
+    margin-bottom: 10.5px
+    margin-top: 28px
+    color: inherit
+    text-decoration: none
+    &:hover
+      text-decoration: underline
+    &Img
+      max-height: 28px
+      max-width: 28px
+      margin-right: 14px
+    &Text
+  &Badges
+  &Badge
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.25)
+    border-radius: 3px
+    margin-right: 7px
+    padding: 3.5px 7px
+    display: inline-flex
+    align-items: center
+    &Img
+      margin-right: 7px
+    &Label
+      text-transform: capitalize
+      font-size: 16px
+  &Desc
+    margin-top: 10.5px
+    font-size: 16px

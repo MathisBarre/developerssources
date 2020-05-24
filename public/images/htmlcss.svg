@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28">
+  <g id="htmlcss" transform="translate(-311.008 -273.553)">
+    <path id="polygon2989" d="M91.008,100.62l-1.492,16.712-6.706,1.859-6.687-1.856-1.49-16.715Z" transform="translate(248 182.362)" fill="#264de4"/>
+    <path id="polygon2991" d="M261.419,145.175l1.275-14.281H256v15.783Z" transform="translate(74.82 153.455)" fill="#2965f1"/>
+    <path id="polygon2993" d="M150.31,268.217l.184,2.05h4.587v-2.05Z" transform="translate(175.739 22.331)" fill="#ebebeb"/>
+    <path id="polygon2995" d="M147.272,176.3h-5.14l.186,2.05h4.954Z" transform="translate(183.548 110.094)" fill="#ebebeb"/>
+    <path id="polygon2997" d="M160.9,340.715v-2.133l-.009,0-2.283-.616-.146-1.635h-2.058l.287,3.219,4.2,1.166Z" transform="translate(169.916 -42.71)" fill="#ebebeb"/>
+    <path id="polygon3005" d="M258.367,182.5l-.238,2.659-2.286.617v2.133l4.2-1.165.031-.346.482-5.4.05-.55.37-4.149h-5.135v2.05h2.889l-.187,2.1h-2.7v2.05Z" transform="translate(74.97 110.094)" fill="#fff"/>
+    <path id="Tracé_2" data-name="Tracé 2" d="M76.247,119.086,74.6,100.6H92.707L91.06,119.076l-7.421,2.056" transform="translate(236.408 172.953)" fill="#e44d26"/>
+    <path id="Tracé_3" data-name="Tracé 3" d="M256,148.443V131h7.4l-1.412,15.771" transform="translate(64.061 144.07)" fill="#f16529"/>
+    <path id="Tracé_4" data-name="Tracé 4" d="M142,176.3h5.69v2.266h-3.2l.21,2.321h2.994v2.261h-5.071m.1,1.138h2.276l.16,1.812,2.535.679v2.366l-4.651-1.3" transform="translate(172.372 101.031)" fill="#ebebeb"/>
+    <path id="Tracé_5" data-name="Tracé 5" d="M261.48,176.3H255.8v2.266h5.47m-.2,2.321H255.8v2.266h2.795l-.264,2.945-2.53.679v2.356l4.641-1.288" transform="translate(64.251 101.031)" fill="#fff"/>
+  </g>
+</svg>

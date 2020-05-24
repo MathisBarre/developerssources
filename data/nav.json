@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Frontend web development",
+    "languages": [
+      {
+        "img": "/images/htmlcss.svg",
+        "label": "HTML & CSS"
+      },
+      {
+        "img": "/images/javascript.svg",
+        "label": "Javascript"
+      }
+      {
+        "img": "/images/react.svg",
+        "label": "React"
+      }
+      {
+        "img": "/images/vuejs.svg",
+        "label": "Vue.js"
+      }
+      {
+        "img": "/images/angular.svg",
+        "label": "Angular"
+      }
+    ]
+  }
+]
