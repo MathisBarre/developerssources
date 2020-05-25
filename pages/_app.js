@@ -8,6 +8,33 @@ import "../styles/global.sass"
 import "../styles/normalize.css"
 
 export default function App({ Component, pageProps }) {
+  const navigation = [
+      {
+        "title": "Frontend web development",
+        "languages": [
+          {
+            "img": "/images/htmlcss.svg",
+            "label": "HTML & CSS"
+          },
+          {
+            "img": "/images/javascript.svg",
+            "label": "Javascript"
+          },
+          {
+            "img": "/images/react.svg",
+            "label": "React"
+          },
+          {
+            "img": "/images/vuejs.svg",
+            "label": "Vue.js"
+          },
+          {
+            "img": "/images/angular.svg",
+            "label": "Angular"
+          }
+        ]
+      }
+    ]
   return (
     <>
       <Head>
@@ -21,7 +48,7 @@ export default function App({ Component, pageProps }) {
             <span className={styles.headerTitleItems}>Depository</span>
           </h1>
           <nav className={styles.nav}>
-            {pageProps.navigation.map(navGroup => {
+            {navigation.map(navGroup => {
               const key = navGroup.title.replace(/\W/g, "").toLowerCase()
               return (
                 <div key={key} className={styles.navGroup}>
@@ -42,17 +69,11 @@ export default function App({ Component, pageProps }) {
   )
 }
 
-// App.defaultProps = {
-//   pageProps: {
-//     navigation: navJson
-//   }
-// }
-
 function NavItem({img, label}) {
   return (
-    <div className={styles.navGroupItem}>
+    <Link href={`/${label.replace(/\W/g, "").toLowerCase()}`}><a className={styles.navGroupItem}>
       <img className={styles.navGroupItemImg} src={img} alt="" />
-      <Link href={`/${label.replace(/\W/g, "").toLowerCase()}`}><a className={styles.navGroupItemLabel} >{label}</a></Link>
-    </div>
+      <span className={styles.navGroupItemLabel} >{label}</span>
+    </a></Link>
   )
 }
