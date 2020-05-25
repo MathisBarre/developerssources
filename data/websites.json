@@ -1,0 +1,20 @@
+[
+  {
+    "id": "freecodecamp",
+    "title": "FreeCodeCamp",
+    "img": "/images/freecodecamp.svg",
+    "url": "https://www.freecodecamp.org"
+  },
+  {
+    "id": "grafikart",
+    "title": "Grafikart",
+    "img": null,
+    "url": "https://www.grafikart.fr"
+  },
+  {
+    "id": "mozilladevelopernetwork",
+    "title": "MDN Web docs",
+    "img": null,
+    "url": "https://developer.mozilla.org/en-US/"
+  }
+]

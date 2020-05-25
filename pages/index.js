@@ -1,4 +1,3 @@
-import { getNavData, getLanguagePathList } from "../lib/fetchData.js"
 import styles from "./index.module.sass"
 
 export default function Home(props) {
@@ -25,11 +24,9 @@ export default function Home(props) {
   )
 }
 
-export async function getStaticProps() {
-  getLanguagePathList()
-  return {
-    props: {
-      navigation: getNavData(),
-    }
-  }
-}
+// export async function getStaticProps() {
+//   return {
+//     props: {
+//     }
+//   }
+// }

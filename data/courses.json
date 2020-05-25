@@ -1,40 +1,42 @@
 [
   {
-    "title": "FreeCodeCamp",
-    "url": "https://freecodecamp.org",
-    "img": "/images/freecodecamp.svg",
+    "websiteId": "freecodecamp",
+    "title": "Curriculum",
+    "url": "https://www.freecodecamp.org/learn",
     "desc": "Learn to code at home. Build projects. Earn certifications.",
     "languages": ["english"],
     "likes": [],
     "level": { "from": "easy", "to": "advanced" },
-    "technologies": [ "javascript", "htmlcss", "react", "bootstrap", "sass", "" ]
+    "technologiesId": [ "javascript", "htmlcss", "react", "bootstrap", "sass", "jquery", "redux", "d3", "nodejs", "express", "mongodb", "mongoose", "helmetjs", "chai" ]
   },
   {
-    "title": "Grafikart - Formation HTML",
+    "websiteId": "grafikart",
+    "title": "Formation HTML",
     "url": "https://www.grafikart.fr/formations/html",
-    "img": false,
+    "desc": "",
     "languages": ["french"],
     "likes": [],
-    "level": { "from": "easy"},
-    "technologies": [ "htmlcss" ]
+    "level": { "from": "easy" },
+    "technologiesId": [ "htmlcss" ]
   },
   {
-    "title": "Grafikart - Formation CSS",
+    "websiteId": "grafikart",
+    "title": "Formation CSS",
     "url": "https://www.grafikart.fr/formations/css",
-    "img": false,
+    "desc": "",
     "languages": ["french"],
     "likes": [],
-    "level": { "from": "easy"},
-    "technologies": [ "htmlcss" ]
+    "level": { "from": "easy" },
+    "technologiesId": [ "htmlcss" ]
   },
   {
-    "title": "MDN - Getting started with the Web",
+    "websiteId": "mozilladevelopernetwork",
+    "title": "Getting started with the web",
     "url": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web",
-    "img": false,
     "desc": "Getting started with the Web is a concise series introducing you to the practicalities of web development. You'll set up the tools you need to construct a simple webpage and publish your own simple code.",
     "languages": ["english", "french"],
     "likes": [],
     "level": { "from": "easy" },
-    "technologies": [ "javascript", "htmlcss" ]
+    "technologiesId": [ "htmlcss", "javascript" ]
   }
 ]

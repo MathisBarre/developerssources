@@ -44,8 +44,7 @@ export default function App({ Component, pageProps }) {
         <header className={styles.header}>
           <h1 className={styles.headerTitle}>
             <span className={styles.headerTitleItems}>Developers</span><br />
-            <span className={styles.headerTitleItems}>Learning</span><br />
-            <span className={styles.headerTitleItems}>Depository</span>
+            <span className={styles.headerTitleItems}>Sources</span>
           </h1>
           <nav className={styles.nav}>
             {navigation.map(navGroup => {
