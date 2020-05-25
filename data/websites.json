@@ -8,13 +8,13 @@
   {
     "id": "grafikart",
     "title": "Grafikart",
-    "img": null,
+    "img": "images/grafikart.jpg",
     "url": "https://www.grafikart.fr"
   },
   {
     "id": "mozilladevelopernetwork",
     "title": "MDN Web docs",
-    "img": null,
+    "img": "/images/mdn.svg",
     "url": "https://developer.mozilla.org/en-US/"
   }
 ]

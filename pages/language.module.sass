@@ -1,6 +1,7 @@
 .main
   padding: 42px
   flex: 1
+  overflow: auto
   &Title
     font-size: 32px
     display: flex
@@ -10,15 +11,14 @@
   &Img
     max-width: 42px
     max-height: 42px
-    margin-right: 28px
+    margin-right: 21px
 
 .source
   &Title
-    display: flex
+    display: inline-flex
     align-items: center
     font-size: 22px
     margin-bottom: 10.5px
-    margin-top: 28px
     color: inherit
     text-decoration: none
     &:hover
@@ -27,6 +27,8 @@
       max-height: 28px
       max-width: 28px
       margin-right: 14px
+  &Desc
+    margin-bottom: 28px
   &Badge
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.25)
     border-radius: 3px
@@ -37,7 +39,6 @@
     &Img
       margin-right: 7px
     &Label
-      text-transform: capitalize
       font-size: 16px
   &Desc
     margin-top: 10.5px

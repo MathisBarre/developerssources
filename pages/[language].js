@@ -1,4 +1,5 @@
 import styles from './language.module.sass'
+import { technoIdToLabel } from "../lib/functions"
 import {getLanguagePathList, getSourcesByLanguageId} from "../lib/fetchData"
 
 export default function Language({sources, img, title}) {
@@ -6,7 +7,7 @@ export default function Language({sources, img, title}) {
     <main className={styles.main}>
       <h2 className={styles.mainTitle}>
         <img className={styles.mainImg} src={img} alt=""/>
-        {title}
+        {technoIdToLabel(title)}
       </h2>
       {sources.map(source => { 
         const key = `${source.websiteId}${source.title}`.replace(/\W/g, "").toLowerCase()
@@ -30,12 +31,12 @@ function Source({source}) {
         </span> */}
         <span className={styles.sourceBadge}>
           <img className={styles.sourceBadgeImg} src="/images/levels.svg" alt="levels"/>
-          <span className={styles.sourceBadgeLabel}>{(!!source.level.to) ? `From ${source.level.from} to ${source.level.to}` : source.level.from}</span>
+          <span className={styles.sourceBadgeLabel}>{(!!source.level.to) ? `From ${source.level.from} to ${source.level.to}` : source.level.from.charAt(0).toUpperCase() + source.level.from.slice(1)}</span>
         </span>
         {source.languages.map(language => (
           <span key={language.replace(/\W/g, "").toLowerCase()} className={styles.sourceBadge}>
             <img className={styles.sourceBadgeImg} src={`/images/${language}.svg`} alt={language}/>
-            <span className={styles.sourceBadgeLabel}>{language}</span>
+            <span className={styles.sourceBadgeLabel}>{language.charAt(0).toUpperCase() + language.slice(1)}</span>
           </span>
         ))}
       </div>

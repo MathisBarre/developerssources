@@ -30,6 +30,36 @@
     "technologiesId": [ "htmlcss" ]
   },
   {
+    "websiteId": "grafikart",
+    "title": "Tutoriels React",
+    "url": "https://www.grafikart.fr/tutoriels/react",
+    "desc": "",
+    "languages": ["french"],
+    "likes": [],
+    "level": { "from": "easy", "to": "medium" },
+    "technologiesId": [ "react" ]
+  },
+  {
+    "websiteId": "grafikart",
+    "title": "Tutoriels Angular",
+    "url": "https://www.grafikart.fr/tutoriels/angular",
+    "desc": "",
+    "languages": ["french"],
+    "likes": [],
+    "level": { "from": "easy", "to": "medium" },
+    "technologiesId": [ "angular" ]
+  },
+  {
+    "websiteId": "grafikart",
+    "title": "Formation Vue.js",
+    "url": "https://www.grafikart.fr/formations/vuejs",
+    "desc": "",
+    "languages": ["french"],
+    "likes": [],
+    "level": { "from": "easy", "to": "medium" },
+    "technologiesId": [ "vuejs" ]
+  },
+  {
     "websiteId": "mozilladevelopernetwork",
     "title": "Getting started with the web",
     "url": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web",

@@ -1,6 +1,7 @@
 import styles from "./app.module.sass"
 import Head from 'next/head'
 import Link from 'next/link'
+import { technoIdToLabel } from '../lib/functions'
 // import navJson from '../data/sources.json'
 // import PropTypes from 'prop-types';
 
@@ -14,23 +15,23 @@ export default function App({ Component, pageProps }) {
         "languages": [
           {
             "img": "/images/htmlcss.svg",
-            "label": "HTML & CSS"
+            "id": "htmlcss"
           },
           {
             "img": "/images/javascript.svg",
-            "label": "Javascript"
+            "id": "javascript"
           },
           {
             "img": "/images/react.svg",
-            "label": "React"
+            "id": "react"
           },
           {
             "img": "/images/vuejs.svg",
-            "label": "Vue.js"
+            "id": "vuejs"
           },
           {
             "img": "/images/angular.svg",
-            "label": "Angular"
+            "id": "angular"
           }
         ]
       }
@@ -38,7 +39,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Developers Learning Depository</title>
+        <title>Developers Sources</title>
       </Head>
       <div className={styles.app}>
         <header className={styles.header}>
@@ -53,8 +54,7 @@ export default function App({ Component, pageProps }) {
                 <div key={key} className={styles.navGroup}>
                   <h2 className={styles.navGroupTitle}>{navGroup.title}</h2>
                   {navGroup.languages.map(language => {
-                    const key = language.label.replace(/\W/g, "").toLowerCase()
-                    return <NavItem key={key} {...language} />
+                    return <NavItem key={language.id} {...language} />
                   })}
                 </div>
               )
@@ -68,9 +68,10 @@ export default function App({ Component, pageProps }) {
   )
 }
 
-function NavItem({img, label}) {
+function NavItem({img, id}) {
+  const label = technoIdToLabel(id)
   return (
-    <Link href={`/${label.replace(/\W/g, "").toLowerCase()}`}><a className={styles.navGroupItem}>
+    <Link href={id}><a className={styles.navGroupItem}>
       <img className={styles.navGroupItemImg} src={img} alt="" />
       <span className={styles.navGroupItemLabel} >{label}</span>
     </a></Link>
