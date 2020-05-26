@@ -1,19 +1,22 @@
 import styles from './language.module.sass'
 import { technoIdToLabel } from "../lib/functions"
 import {getLanguagePathList, getSourcesByLanguageId} from "../lib/fetchData"
+import Layout from "../components/layout"
 
 export default function Language({sources, img, title}) {
   return (
-    <main className={styles.main}>
-      <h2 className={styles.mainTitle}>
-        <img className={styles.mainImg} src={img} alt=""/>
-        {technoIdToLabel(title)}
-      </h2>
-      {sources.map(source => { 
-        const key = `${source.websiteId}${source.title}`.replace(/\W/g, "").toLowerCase()
-        return <Source key={key} source={source} />
-      })}
-    </main>
+    <Layout>
+      <main className={styles.main}>
+        <h2 className={styles.mainTitle}>
+          <img className={styles.mainImg} src={img} alt=""/>
+          {technoIdToLabel(title)}
+        </h2>
+        {sources.map(source => { 
+          const key = `${source.websiteId}${source.title}`.replace(/\W/g, "").toLowerCase()
+          return <Source key={key} source={source} />
+        })}
+      </main>
+    </Layout>
   )
 }
 
