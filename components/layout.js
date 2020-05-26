@@ -68,7 +68,7 @@ export default function Layout({children}) {
 function NavItem({img, id}) {
   const label = technoIdToLabel(id)
   return (
-    <Link href={id}><a className={styles.navGroupItem}>
+    <Link href="/[language]" as={`/${id}`}><a className={styles.navGroupItem}>
       <img className={styles.navGroupItemImg} src={img} alt="" />
       <span className={styles.navGroupItemLabel} >{label}</span>
     </a></Link>
