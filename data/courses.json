@@ -68,5 +68,35 @@
     "likes": [],
     "level": { "from": "easy" },
     "technologiesId": [ "htmlcss", "javascript" ]
+  },
+  {
+    "websiteId": "reactjsorg",
+    "title": "Official React tutorial",
+    "url": "https://reactjs.org/tutorial/tutorial.html",
+    "desc": "Get started with React by building a game !",
+    "languages": ["english", "french"],
+    "likes": [],
+    "level": { "from": "easy" },
+    "technologiesId": [ "react" ]
+  },
+  {
+    "websiteId": "vuejsorg",
+    "title": "Official Vue.js guide",
+    "url": "https://vuejs.org/v2/guide/",
+    "desc": "Get started with Vue.js by following this official guide !",
+    "languages": ["english", "french"],
+    "likes": [],
+    "level": { "from": "easy" },
+    "technologiesId": [ "vuejs" ]
+  },
+  {
+    "websiteId": "angulario",
+    "title": "Official Angular documentation",
+    "url": "https://angular.io/docs",
+    "desc": "Get started with Vue.js by following the official documentation !",
+    "languages": ["english"],
+    "likes": [],
+    "level": { "from": "easy" },
+    "technologiesId": [ "angular" ]
   }
 ]

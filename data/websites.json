@@ -16,5 +16,23 @@
     "title": "MDN Web docs",
     "img": "/images/mdn.svg",
     "url": "https://developer.mozilla.org/en-US/"
+  },
+  {
+    "id": "reactjsorg",
+    "title": "Reactjs.org",
+    "img": false,
+    "url": "https://reactjs.org/"
+  },
+  {
+    "id": "vuejsorg",
+    "title": "Vuejs.org",
+    "img": false,
+    "url": "https://vuejs.org/"
+  },
+  {
+    "id": "angulario",
+    "title": "Angular.io",
+    "img": false,
+    "url": "https://angular.io/"
   }
 ]
