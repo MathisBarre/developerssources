@@ -29,6 +29,27 @@ export default function Layout({children}) {
             "id": "angular"
           }
         ]
+      },
+      {
+        "title": "Others",
+        "languages": [
+          {
+            "img": "/images/php.svg",
+            "id": "php"
+          },
+          {
+            "img": "/images/python.svg",
+            "id": "python"
+          },
+          {
+            "img": "/images/ruby.svg",
+            "id": "ruby"
+          },
+          {
+            "img": "/images/sql.svg",
+            "id": "sql"
+          },
+        ]
       }
     ]
   return (
