@@ -40,5 +40,17 @@
     "title": "Javascript.info",
     "img": false,
     "url": "https://javascript.info/"
+  },
+  {
+    "id": "csstrickscom",
+    "title": "CSS TRICKS",
+    "img": false,
+    "url": "https://css-tricks.com/"
+  },
+  {
+    "id": "eloquentjavascriptnet",
+    "title": "Eloquent Javascript",
+    "img": false,
+    "url": "https://eloquentjavascript.net/"
   }
 ]

@@ -118,5 +118,35 @@
     "likes": [],
     "level": { "from": "easy", "to": "advanced" },
     "technologiesId": [ "javascript" ]
+  },
+  {
+    "websiteId": "csstrickscom",
+    "title": "Guides",
+    "url": "https://css-tricks.com/guides/",
+    "desc": "Our deep-dive guides into web development subjects. These aren't surface level explanations, they represent just about all you need to know about these subjects as a web developer.",
+    "languages": ["english"],
+    "likes": [],
+    "level": { "from": "easy", "to": "medium" },
+    "technologiesId": [ "htmlcss" ]
+  },
+  {
+    "websiteId": "eloquentjavascriptnet",
+    "title": "Book",
+    "url": "https://eloquentjavascript.net/",
+    "desc": "A book about JavaScript, programming, and the wonders of the digital",
+    "languages": ["english"],
+    "likes": [],
+    "level": { "from": "medium", "to": "advanced" },
+    "technologiesId": [ "javascript" ]
+  },
+  {
+    "websiteId": "eloquentjavascriptnet",
+    "title": "Book",
+    "url": "https://fr.eloquentjavascript.net/",
+    "desc": "JavaScript Éloquent est un livre fournissant une introduction au langage de programmation JavaScript et à la programmation en général.",
+    "languages": ["french"],
+    "likes": [],
+    "level": { "from": "medium", "to": "advanced" },
+    "technologiesId": [ "javascript" ]
   }
 ]
