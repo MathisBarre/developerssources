@@ -70,6 +70,16 @@
     "technologiesId": [ "htmlcss", "javascript" ]
   },
   {
+    "websiteId": "mozilladevelopernetwork",
+    "title": "Getting started with React",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started",
+    "desc": "In this article we will say hello to React. We'll discover a little bit of detail about its background and use cases, set up a basic React toolchain on our local computer, and create and play with a simple starter app, learning a bit about how React works in the process.",
+    "languages": ["english"],
+    "likes": [],
+    "level": { "from": "medium" },
+    "technologiesId": [ "react" ]
+  },
+  {
     "websiteId": "reactjsorg",
     "title": "Official React tutorial",
     "url": "https://reactjs.org/tutorial/tutorial.html",
@@ -98,5 +108,15 @@
     "likes": [],
     "level": { "from": "easy" },
     "technologiesId": [ "angular" ]
+  },
+  {
+    "websiteId": "javascriptinfo",
+    "title": "The Modern JavaScript Tutorial",
+    "url": "https://javascript.info/",
+    "desc": "How it's done now. From the basics to advanced topics with simple, but detailed explanations.",
+    "languages": ["english"],
+    "likes": [],
+    "level": { "from": "easy", "to": "advanced" },
+    "technologiesId": [ "javascript" ]
   }
 ]

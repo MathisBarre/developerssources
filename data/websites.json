@@ -34,5 +34,11 @@
     "title": "Angular.io",
     "img": false,
     "url": "https://angular.io/"
+  },
+  {
+    "id": "javascriptinfo",
+    "title": "Javascript.info",
+    "img": false,
+    "url": "https://javascript.info/"
   }
 ]
