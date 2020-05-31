@@ -21,6 +21,8 @@ export default function Home(props) {
             <li>sort options (by likes, likes/month, language, difficulty...)</li>
             <li>contribute directly on the website (add & modify sources) </li>
           </ul>
+          <li>Responsive design</li>
+          <li>PWA ready</li>
         </ul>
         <h3>The author's contact informations : </h3>
         <ul>
