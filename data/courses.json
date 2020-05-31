@@ -141,7 +141,7 @@
   },
   {
     "websiteId": "eloquentjavascriptnet",
-    "title": "Book",
+    "title": "Livre",
     "url": "https://fr.eloquentjavascript.net/",
     "desc": "JavaScript Éloquent est un livre fournissant une introduction au langage de programmation JavaScript et à la programmation en général.",
     "languages": ["french"],
