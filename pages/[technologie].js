@@ -4,7 +4,7 @@ import {getTechnoPathList, getSourcesByLanguageId} from "../lib/fetchData"
 import Layout from "../components/layout"
 import {useEffect, useState} from 'react'
 
-export default function Language({sources, img: technoImg, title}) {
+export default function Techno({sources, img: technoImg, title}) {
   const completeListOfSources = sources
   const [filteredListOfSources, setFilteredListOfSources] = useState(sources)
   const [languages, setLanguages] = useState({ "english":true, "french":true })
@@ -58,10 +58,11 @@ function SourcesHeader({technoImg, title, languages, btnOnClick}) {
       <div className={styles.sourceHeaderButtons}>
         {Object.entries(languages).map((language) => (
         <button 
+          key={language}
           onClick={() => {btnOnClick(language[0])}}
           className={`${styles.sourceHeaderButton} ${(languages[language[0]]) ? styles.sourceHeaderButtonEnabled : styles.sourceHeaderButtonDisabled}`}
         >
-          English
+          {language}
         </button>
         ))}
         {/* <button onClick={() => {btnOnClick("english")}} className={`${styles.sourceHeaderButton} ${(languages["english"]) ? styles.sourceHeaderButtonEnabled : styles.sourceHeaderButtonDisabled}`}>English</button>
