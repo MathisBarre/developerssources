@@ -7,7 +7,7 @@ export default function Layout({children}) {
   const navigation = [
       {
         "title": "Frontend web development",
-        "languages": [
+        "technologies": [
           {
             "img": "/images/htmlcss.svg",
             "id": "htmlcss"
@@ -50,7 +50,7 @@ export default function Layout({children}) {
               return (
                 <div key={key} className={styles.navGroup}>
                   <h2 className={styles.navGroupTitle}>{navGroup.title}</h2>
-                  {navGroup.languages.map(language => {
+                  {navGroup.technologies.map(language => {
                     return <NavItem key={language.id} {...language} />
                   })}
                 </div>
@@ -68,7 +68,7 @@ export default function Layout({children}) {
 function NavItem({img, id}) {
   const label = technoIdToLabel(id)
   return (
-    <Link href="/[language]" as={`/${id}`}><a className={styles.navGroupItem}>
+    <Link href="/[technologie]" as={`/${id}`}><a className={styles.navGroupItem}>
       <img className={styles.navGroupItemImg} src={img} alt="" />
       <span className={styles.navGroupItemLabel} >{label}</span>
     </a></Link>
