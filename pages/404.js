@@ -1,7 +1,7 @@
 import Layout from "../components/layout"
 import styles from "./404.module.sass"
 
-export default function page404() {
+export default function Page404() {
   return (
     <Layout>
       <main className={styles.main}>

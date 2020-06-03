@@ -65,8 +65,6 @@ function SourcesHeader({technoImg, title, languages, btnOnClick}) {
           {language}
         </button>
         ))}
-        {/* <button onClick={() => {btnOnClick("english")}} className={`${styles.sourceHeaderButton} ${(languages["english"]) ? styles.sourceHeaderButtonEnabled : styles.sourceHeaderButtonDisabled}`}>English</button>
-        <button onClick={() => {btnOnClick("french")}} className={`${styles.sourceHeaderButton} ${(languages["french"]) ? styles.sourceHeaderButtonEnabled : styles.sourceHeaderButtonDisabled}`}>French</button> */}
       </div>
     </div>
   )
