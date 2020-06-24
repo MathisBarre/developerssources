@@ -9,6 +9,10 @@ export default function Techno({sources, img: technoImg, title}) {
   const [filteredListOfSources, setFilteredListOfSources] = useState(sources)
   const [languages, setLanguages] = useState({ "english":true, "french":true })
 
+  useEffect(() => {
+    filterSources()
+  }, [sources])
+
   async function toggleLanguage(language) {
     // Change toggle language
     await setLanguages(() => {
@@ -16,6 +20,10 @@ export default function Techno({sources, img: technoImg, title}) {
       return languages
     })
 
+    filterSources()
+  }
+
+  async function filterSources() {
     // Create an array of selected languages
     const arrayOfLanguagesWithTrueFalse = Object.entries(languages)
     const arrayOfLanguages = arrayOfLanguagesWithTrueFalse.map(language => {
