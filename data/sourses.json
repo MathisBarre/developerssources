@@ -148,5 +148,15 @@
     "likes": [],
     "level": { "from": "medium", "to": "advanced" },
     "technologiesId": [ "javascript" ]
+  },
+  {
+    "websiteId": "internetingishardcom",
+    "title": "HTML & CSS illustrated guide",
+    "url": "https://www.internetingishard.com/",
+    "desc": "Learning to code shouldn’t be hard. We’re making it easier by putting together a comprehensive set of web development tutorials to help transform complete beginners into talented Interneting professionals. We’ve got the curriculum, all you need is the motivation to start reading it.",
+    "languages": ["english"],
+    "likes": [],
+    "level": { "from": "beginner" },
+    "technologiesId": [ "htmlcss" ]
   }
 ]

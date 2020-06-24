@@ -52,5 +52,11 @@
     "title": "Eloquent Javascript",
     "img": false,
     "url": "https://eloquentjavascript.net/"
+  },
+  {
+    "id": "internetingishardcom",
+    "title": "Interneting is hard",
+    "img": false,
+    "url": "https://www.internetingishard.com/"
   }
 ]
