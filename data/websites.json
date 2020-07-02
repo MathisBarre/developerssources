@@ -70,5 +70,17 @@
     "title": "Node school",
     "img": false,
     "url": "https://nodeschool.io/"
+  },
+  {
+    "id": "frontendmentorio",
+    "title": "Frontend Mentor",
+    "img": false,
+    "url": "https://www.frontendmentor.io/"
+  },
+  {
+    "id": "frontendmasterscom",
+    "title": "Frontend Masters",
+    "img": false,
+    "url": "https://frontendmasters.com/"
   }
 ]

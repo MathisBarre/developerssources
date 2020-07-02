@@ -178,5 +178,25 @@
     "likes": [],
     "level": { "from": "beginner" },
     "technologiesId": [ "javascript" ]
+  },
+  {
+    "websiteId": "frontendmentorio",
+    "title": "Build real projects",
+    "url": "https://www.frontendmentor.io/",
+    "desc": "Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs. Join over 38,000 developers building projects, reviewing code, and helping each other get better.",
+    "languages": ["english"],
+    "likes": [],
+    "level": { "from": "beginner", "to": "advanced" },
+    "technologiesId": [ "htmlcss" ]
+  },
+  {
+    "websiteId": "frontendmasterscom",
+    "title": "Advance Your Skills",
+    "url": "https://frontendmasters.com/",
+    "desc": "Advance Your Skills with In-Depth, Modern Front-End Engineering Courses",
+    "languages": ["english"],
+    "likes": [],
+    "level": { "from": "beginner", "to": "advanced" },
+    "technologiesId": [ "htmlcss", "javascript", "vuejs", "angular", "react", "nodejs" ]
   }
 ]

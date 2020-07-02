@@ -101,7 +101,7 @@ function Source({source}) {
           </span>
         ))}
       </div>
-      <p className={styles.sourceDesc}>{source.desc}</p>
+      { (source.desc) ? <p className={styles.sourceDesc}>{source.desc}</p> : ""}
     </div>
   )
 }
