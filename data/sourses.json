@@ -158,5 +158,25 @@
     "likes": [],
     "level": { "from": "beginner" },
     "technologiesId": [ "htmlcss" ]
+  },
+  {
+    "websiteId": "warriorjscom",
+    "title": "Js game",
+    "url": "https://warriorjs.com/",
+    "desc": "Code your way through dungeons, prove your skills, and get hired.",
+    "languages": ["english"],
+    "likes": [],
+    "level": { "from": "beginner" },
+    "technologiesId": [ "javascript" ]
+  },
+  {
+    "websiteId": "nodeschoolio",
+    "title": "Local interactive learning",
+    "url": "https://nodeschool.io/",
+    "desc": "Open source workshops that teach web software skills. Do them on your own or at a workshop nearby.",
+    "languages": ["english", "french"],
+    "likes": [],
+    "level": { "from": "beginner" },
+    "technologiesId": [ "javascript" ]
   }
 ]

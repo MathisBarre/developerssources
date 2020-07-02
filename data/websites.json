@@ -58,5 +58,17 @@
     "title": "Interneting is hard",
     "img": false,
     "url": "https://www.internetingishard.com/"
+  },
+  {
+    "id": "warriorjscom",
+    "title": "WarriorJS",
+    "img": false,
+    "url": "https://warriorjs.com/"
+  },
+  {
+    "id": "nodeschoolio",
+    "title": "Node school",
+    "img": false,
+    "url": "https://nodeschool.io/"
   }
 ]
