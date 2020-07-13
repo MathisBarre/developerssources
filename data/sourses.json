@@ -156,7 +156,7 @@
     "desc": "Learning to code shouldn’t be hard. We’re making it easier by putting together a comprehensive set of web development tutorials to help transform complete beginners into talented Interneting professionals. We’ve got the curriculum, all you need is the motivation to start reading it.",
     "languages": ["english"],
     "likes": [],
-    "level": { "from": "beginner" },
+    "level": { "from": "easy" },
     "technologiesId": [ "htmlcss" ]
   },
   {
@@ -166,7 +166,7 @@
     "desc": "Code your way through dungeons, prove your skills, and get hired.",
     "languages": ["english"],
     "likes": [],
-    "level": { "from": "beginner" },
+    "level": { "from": "easy" },
     "technologiesId": [ "javascript" ]
   },
   {
@@ -176,7 +176,7 @@
     "desc": "Open source workshops that teach web software skills. Do them on your own or at a workshop nearby.",
     "languages": ["english", "french"],
     "likes": [],
-    "level": { "from": "beginner" },
+    "level": { "from": "easy" },
     "technologiesId": [ "javascript" ]
   },
   {
@@ -186,17 +186,77 @@
     "desc": "Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs. Join over 38,000 developers building projects, reviewing code, and helping each other get better.",
     "languages": ["english"],
     "likes": [],
-    "level": { "from": "beginner", "to": "advanced" },
+    "level": { "from": "easy", "to": "advanced" },
     "technologiesId": [ "htmlcss" ]
   },
   {
     "websiteId": "frontendmasterscom",
-    "title": "Advance Your Skills",
+    "title": "Nodejs",
     "url": "https://frontendmasters.com/",
     "desc": "Advance Your Skills with In-Depth, Modern Front-End Engineering Courses",
     "languages": ["english"],
     "likes": [],
-    "level": { "from": "beginner", "to": "advanced" },
-    "technologiesId": [ "htmlcss", "javascript", "vuejs", "angular", "react", "nodejs" ]
+    "level": { "from": "easy", "to": "advanced" },
+    "technologiesId": [ "nodejs" ]
+  },
+  {
+    "websiteId": "frontendmasterscom",
+    "title": "React",
+    "url": "https://frontendmasters.com/learn/react/",
+    "desc": "Advance Your Skills with In-Depth, Modern Front-End Engineering Courses",
+    "languages": ["english"],
+    "likes": [],
+    "level": { "from": "easy", "to": "advanced" },
+    "technologiesId": [ "react" ]
+  },
+  {
+    "websiteId": "frontendmasterscom",
+    "title": "VueJs",
+    "url": "https://frontendmasters.com/learn/vue/",
+    "desc": "Advance Your Skills with In-Depth, Modern Front-End Engineering Courses",
+    "languages": ["english"],
+    "likes": [],
+    "level": { "from": "easy", "to": "advanced" },
+    "technologiesId": [ "vuejs" ]
+  },
+  {
+    "websiteId": "frontendmasterscom",
+    "title": "VueJs",
+    "url": "https://frontendmasters.com/learn/vue/",
+    "desc": "Advance Your Skills with In-Depth, Modern Front-End Engineering Courses",
+    "languages": ["english"],
+    "likes": [],
+    "level": { "from": "easy", "to": "advanced" },
+    "technologiesId": [ "vuejs" ]
+  },
+  {
+    "websiteId": "frontendmasterscom",
+    "title": "Angular",
+    "url": "https://frontendmasters.com/learn/angular/",
+    "desc": "Advance Your Skills with In-Depth, Modern Front-End Engineering Courses",
+    "languages": ["english"],
+    "likes": [],
+    "level": { "from": "easy", "to": "advanced" },
+    "technologiesId": [ "angular" ]
+  },
+  {
+    "websiteId": "frontendmasterscom",
+    "title": "CSS",
+    "url": "https://frontendmasters.com/learn/css/",
+    "desc": "Advance Your Skills with In-Depth, Modern Front-End Engineering Courses",
+    "languages": ["english"],
+    "likes": [],
+    "level": { "from": "easy", "to": "advanced" },
+    "technologiesId": [ "htmlcss" ]
+  },
+  {
+    "websiteId": "frontendmasterscom",
+    "title": "Javascript",
+    "url": "https://frontendmasters.com/learn/javascript/",
+    "desc": "Advance Your Skills with In-Depth, Modern Front-End Engineering Courses",
+    "languages": ["english"],
+    "likes": [],
+    "level": { "from": "easy", "to": "advanced" },
+    "technologiesId": [ "javascript" ]
   }
 ]
