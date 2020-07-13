@@ -221,16 +221,6 @@
   },
   {
     "websiteId": "frontendmasterscom",
-    "title": "VueJs",
-    "url": "https://frontendmasters.com/learn/vue/",
-    "desc": "Advance Your Skills with In-Depth, Modern Front-End Engineering Courses",
-    "languages": ["english"],
-    "likes": [],
-    "level": { "from": "easy", "to": "advanced" },
-    "technologiesId": [ "vuejs" ]
-  },
-  {
-    "websiteId": "frontendmasterscom",
     "title": "Angular",
     "url": "https://frontendmasters.com/learn/angular/",
     "desc": "Advance Your Skills with In-Depth, Modern Front-End Engineering Courses",
