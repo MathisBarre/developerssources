@@ -2,42 +2,54 @@ import styles from "./layout.module.sass"
 import Head from 'next/head'
 import Link from 'next/link'
 import { technoIdToLabel } from '../lib/functions'
+import ReactGA from 'react-ga';
+import { useState } from 'react'
 
 export default function Layout({children}) {
+
   const navigation = [
-      {
-        "title": "Frontend web development",
-        "technologies": [
-          {
-            "img": "/images/htmlcss.svg",
-            "id": "htmlcss"
-          },
-          {
-            "img": "/images/javascript.svg",
-            "id": "javascript"
-          },
-          {
-            "img": "/images/react.svg",
-            "id": "react"
-          },
-          {
-            "img": "/images/vuejs.svg",
-            "id": "vuejs"
-          },
-          {
-            "img": "/images/angular.svg",
-            "id": "angular"
-          }
-        ]
-      }
-    ]
+    {
+      "title": "Front-end web development",
+      "technologies": [
+        {
+          "img": "/images/htmlcss.svg",
+          "id": "htmlcss"
+        },
+        {
+          "img": "/images/javascript.svg",
+          "id": "javascript"
+        },
+        {
+          "img": "/images/react.svg",
+          "id": "react"
+        },
+        {
+          "img": "/images/vuejs.svg",
+          "id": "vuejs"
+        },
+        {
+          "img": "/images/angular.svg",
+          "id": "angular"
+        }
+      ]
+    }
+  ]
+
+  let [isNavbarVisible, setNavbarVisibility] = useState(true)
+
   return (
     <>
       <Head>
         <title>Developers Sources</title>
+        {/* {
+          ReactGA.initialize('UA-000000-01')
+          ReactGA.pageview(window.location.pathname + window.location.search)
+        } */}
       </Head>
+
       <div className={styles.app}>
-        <header className={styles.header}>
+        <button className={styles.headerBtnToggle} onClick={() => { setNavbarVisibility(!isNavbarVisible) }} >Toggle navbar</button>
+        <header className={`${styles.header} ${(!isNavbarVisible) ? styles.headerHidden : ""}`}>
           <Link href="/"><a className={styles.headerLink}>
             <h1 className={styles.headerTitle}>
               <span className={styles.headerTitleItems}>Developers</span><br />
