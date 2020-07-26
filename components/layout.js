@@ -2,7 +2,7 @@ import styles from "./layout.module.sass"
 import Head from 'next/head'
 import Link from 'next/link'
 import { technoIdToLabel } from '../lib/functions'
-import ReactGA from 'react-ga';
+// import ReactGA from 'react-ga';
 import { useState } from 'react'
 
 export default function Layout({children}) {
