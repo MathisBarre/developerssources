@@ -21,10 +21,55 @@
   border-radius: 3px
   opacity: .5
 
+@media screen and ( max-width: 1024px )
+  .version
+    right: 6 * 7px
+    bottom: 9 * 7px
+    left: unset
+
+.btnToggleMenu
+  display: none
+
+@media screen and ( max-width: 1024px )
+  .headerHidden
+    margin-left: -375px
+  .btnToggleMenu
+    position: fixed
+    left: 0px
+    right: 0px
+    bottom: 0px
+    background-color: var(--black)
+    border: none
+    display: flex
+    justify-content: center
+    align-items: center
+    cursor: pointer
+    width: 100%
+    height: 6*7px
+    color: white
+    &Icon
+      height: 3 * 7px
+      width: 3 * 7px
+      padding: 0
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      margin-right: 2*7px
+    &Innerlines
+      height: 2px
+      width: 100%
+      background-color: white
+      margin: 0
+      padding: 0
+      border-color: transparent
+
 .header
   display: inline-block
   overflow: auto
   height: 100vh
+  width: 375px
+  max-width: 375px
+  min-width: 375px
   background-color: var(--black)
   padding: 42px
   color: white
@@ -34,28 +79,19 @@
   &Title
     margin: 0
     margin-bottom: 21px
-    margin-top: 46px
     border: solid 3px white
     padding: 28px
     font-size: 46px
     box-sizing: border-box
     &Items
       display: inline-block
-  &BtnToggle
-    position: absolute
-    z-index: 1000
-    background-color: white
-    border: none
-    padding: 7px 14px
-    top: 42px
-    left: 42px
-    width: 290px
-  &Hidden
-    margin-left: -375px
 
-@media screen and ( max-width: 1024px )
-  .header
-    position: absolute
+// @media screen and ( max-width: 750px )
+//   .header
+//     width: 100vh!important
+//     max-width: 100vh!important
+//   .headerHidden
+//     margin-left: -100vh
 
 .nav
   &Group

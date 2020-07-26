@@ -1,22 +1,36 @@
 .main
-  padding: 42px
+  padding: 6 * 7px
+  padding-bottom: 0px
   flex: 1
   overflow-y: scroll
+  overflow-x: visible
+
+@media screen and ( max-width: 1024px )
+  .main
+    margin-bottom: 6*7px
 
 .source
-  margin-bottom: 28px
-  padding: 14px
+  margin-bottom: 4 * 7px
+  padding: 2 * 7px
   border: 1px solid #00000048
   border-radius: 3px
+  overflow: hidden
+  &:last-child
+    margin-bottom: 6 * 7 px
   &Header
-    margin-top: -42px
-    margin-left: -42px
-    margin-right: -42px
-    margin-bottom: 42px
-    padding: 42px
+    margin-top: -6 * 7px
+    margin-left: -6 * 7px
+    margin-right: -6 * 7px
+    margin-bottom: 6 * 7px
+    padding: 6 * 7px
+    padding-bottom: 4 * 7px
     background-color: #10171ef8
     display: flex
+    align-items: center
     justify-content: space-between
+    flex-wrap: wrap
+    > * 
+      margin-bottom: 2*7px!important
     &Title
       font-size: 32px
       display: flex
@@ -25,10 +39,10 @@
       margin-bottom: 0
       color: white
     &Img
-      max-width: 42px
-      max-height: 42px
-      min-width: 42px
-      min-height: 42px
+      max-width: 6 * 7px
+      max-height: 6 * 7px
+      min-width: 6 * 7px
+      min-height: 6 * 7px
       margin-right: 21px
     &Buttons
       display: flex
@@ -59,9 +73,11 @@
     &:hover
       text-decoration: underline
     &Img
-      max-height: 28px
-      max-width: 28px
-      margin-right: 14px
+      max-height: 4 * 7px
+      max-width: 4 * 7px
+      min-height: 4 * 7px
+      min-width: 4 * 7px
+      margin-right: 2 * 7px
   &Badge
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.25)
     border-radius: 3px
@@ -71,7 +87,7 @@
     align-items: center
     &Img
       margin-right: 7px
-      max-height: 14px
+      max-height: 2 * 7px
     &Label
       font-size: 16px
   &Desc

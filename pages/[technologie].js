@@ -1,7 +1,6 @@
 import styles from './technologie.module.sass'
 import { technoIdToLabel } from "../lib/functions"
 import {getTechnoPathList, getSourcesByLanguageId} from "../lib/fetchData"
-import Layout from "../components/layout"
 import {useEffect, useState} from 'react'
 
 export default function Techno({sources, img: technoImg, title}) {
@@ -44,19 +43,17 @@ export default function Techno({sources, img: technoImg, title}) {
   }
 
   return (
-    <Layout>
-      <main className={styles.main}>
-        <SourcesHeader {...{title, technoImg, languages}} btnOnClick={toggleLanguage} />
-        {filteredListOfSources.map(source => { 
-          const key = `${source.websiteId}${source.title}`.replace(/\W/g, "").toLowerCase()
-          return <Source key={key} source={source} />
-        })}
-      </main>
-    </Layout>
+    <main className={styles.main}>
+      <SourcesHeader {...{title, technoImg, languages }} btnOnClick={toggleLanguage} />
+      {filteredListOfSources.map(source => { 
+        const key = `${source.websiteId}${source.title}`.replace(/\W/g, "").toLowerCase()
+        return <Source key={key} source={source} />
+      })}
+    </main>
   )
 }
 
-function SourcesHeader({technoImg, title, languages, btnOnClick}) {
+function SourcesHeader({technoImg, title, languages, btnOnClick }) {
   return (
     <div className={styles.sourceHeader}>
       <h2 className={styles.sourceHeaderTitle}>
