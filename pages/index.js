@@ -11,6 +11,13 @@ export default function Home(props) {
         <li>Nothing here ! Maybe you will be the first !</li>
       </ul> */}
       <p>You want to contribute ? Please considered do a pull request <a href="https://github.com/MathisBarre/next-learningdev">on the github repository</a> or send me your sources here at my email adress!</p>
+      
+      <h3>Latest update</h3>
+      <ul>
+        <li>Design: add border on sources</li>
+        <li>Responsive: add toggle navigation bar for mobiles devices</li>
+      </ul>
+      
       <h3>Roadmap</h3>
       <ul>
         <li>Add authentification to implement :</li>
@@ -19,8 +26,6 @@ export default function Home(props) {
           <li>sort options (by likes, likes/month, language, difficulty...)</li>
           <li>contribute directly on the website (add & modify sources) </li>
         </ul>
-        <li>Responsive design</li>
-        <li>PWA ready</li>
       </ul>
       <h3>The author's contact informations : </h3>
       <ul>
