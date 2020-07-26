@@ -1,6 +1,7 @@
 .main
   padding: 42px
   flex: 1
+  overflow-y: auto
   &Title
     font-size: 32px
     margin-top: 0
@@ -9,3 +10,7 @@
     margin-top: 0px
   h3
     text-decoration: underline
+
+@media screen and ( max-width: 1024px )
+  .main
+    margin-bottom: 6 * 7px

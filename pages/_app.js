@@ -69,7 +69,7 @@ export default function App({Component, pageProps, router}) {
                 <div key={key} className={styles.navGroup}>
                   <h2 className={styles.navGroupTitle}>{navGroup.title}</h2>
                   {navGroup.technologies.map(language => {
-                    return <NavItem key={language.id} {...language} />
+                    return <NavItem key={language.id} {...language} setNavbarVisibility={setNavbarVisibility} />
                   })}
                 </div>
               )
@@ -83,10 +83,10 @@ export default function App({Component, pageProps, router}) {
   )
 }
 
-function NavItem({img, id}) {
+function NavItem({img, id, setNavbarVisibility}) {
   const label = technoIdToLabel(id)
   return (
-    <Link href="/[technologie]" as={`/${id}`}><a className={styles.navGroupItem}>
+    <Link href="/[technologie]" as={`/${id}`} ><a onClick={(e) => { setNavbarVisibility(false) }} className={styles.navGroupItem}>
       <img className={styles.navGroupItemImg} src={img} alt="" />
       <span className={styles.navGroupItemLabel} >{label}</span>
     </a></Link>
