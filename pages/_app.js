@@ -56,7 +56,7 @@ export default function App({Component, pageProps, router}) {
 
       <div className={styles.app}>
         <header className={`${styles.header} ${(!isNavbarVisible) ? styles.headerHidden : ""}`}>
-          <Link href="/"><a className={styles.headerLink}>
+          <Link href="/"><a className={styles.headerLink} onClick={() => { setNavbarVisibility(false) }} >
             <h1 className={styles.headerTitle}>
               <span className={styles.headerTitleItems}>Developers</span><br />
               <span className={styles.headerTitleItems}>Sources</span>
@@ -86,7 +86,7 @@ export default function App({Component, pageProps, router}) {
 function NavItem({img, id, setNavbarVisibility}) {
   const label = technoIdToLabel(id)
   return (
-    <Link href="/[technologie]" as={`/${id}`} ><a onClick={(e) => { setNavbarVisibility(false) }} className={styles.navGroupItem}>
+    <Link href="/[technologie]" as={`/${id}`} ><a onClick={() => { setNavbarVisibility(false) }} className={styles.navGroupItem}>
       <img className={styles.navGroupItemImg} src={img} alt="" />
       <span className={styles.navGroupItemLabel} >{label}</span>
     </a></Link>
