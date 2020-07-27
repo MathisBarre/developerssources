@@ -9,9 +9,12 @@
   },
   "dependencies": {
     "firebase-admin": "^8.12.1",
+    "firebase-tools": "^8.4.3",
+    "global": "^4.4.0",
     "next": "9.4.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "sass": "^1.26.5"
+    "sass": "^1.26.5",
+    "vercel": "^19.1.1"
   }
 }
