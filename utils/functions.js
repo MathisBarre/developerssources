@@ -11,4 +11,4 @@ export function technoIdToLabel(techId) {
     sql: "SQL"
   }
   return idToLabel[techId]
-}
+} 

@@ -1,0 +1,7 @@
+type Website {
+  id: String!
+  title: String!
+  img: String
+  url: String!
+  sources: [Sources]!
+}

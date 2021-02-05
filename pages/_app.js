@@ -4,7 +4,7 @@ import "../styles/normalize.css"
 import styles from "./_app.module.sass"
 import Head from 'next/head'
 import Link from 'next/link'
-import { technoIdToLabel } from '../lib/functions'
+import { technoIdToLabel } from '../utils/functions'
 import { useState } from 'react'
 
 export default function App({Component, pageProps, router}) {

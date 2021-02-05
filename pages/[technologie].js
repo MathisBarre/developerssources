@@ -1,6 +1,6 @@
 import styles from './technologie.module.sass'
-import { technoIdToLabel } from "../lib/functions"
-import {getTechnoPathList, getSourcesByLanguageId} from "../lib/fetchData"
+import { technoIdToLabel } from "../utils/functions"
+import {getTechnoPathList, getSourcesByLanguageId} from "../utils/fetchData"
 import {useEffect, useState} from 'react'
 
 export default function Techno({sources, img: technoImg, title}) {

@@ -32,9 +32,11 @@ export function getTechnoPathList() {
 }
 
 export function getSourcesByLanguageId(givenTechnologieId) {
+  
   const filteredSources = soursesJson.filter(course => {
     return course.technologiesId.some(technologieId => technologieId === givenTechnologieId )
   })
+
   const completeSourcesData = filteredSources.map(course => {
     const websiteData = websitesJson.find((website) => website.id === course.websiteId)
     return {
@@ -43,5 +45,6 @@ export function getSourcesByLanguageId(givenTechnologieId) {
       siteTitle: websiteData.title,
     }
   })
+
   return completeSourcesData
 }
